@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoices date="2025-04-02">
+  <invoice>
+    <invoice_id>INV-2001</invoice_id>
+    <customer_id>CUST-04</customer_id>
+    <amount>89.99</amount>
+    <issue_date>2025-04-02</issue_date>
+    <state>RS</state>
+  </invoice>
+  <invoice>
+    <invoice_id>INV-2002</invoice_id>
+    <customer_id>CUST-05</customer_id>
+    <amount>120.00</amount>
+    <issue_date>2025-04-15</issue_date>
+    <state>XX</state>  <!-- estado inválido -->
+  </invoice>
+  <invoice>
+    <invoice_id>INV-2003</invoice_id>
+    <customer_id>CUST-06</customer_id>
+    <amount>45.50</amount>
+    <issue_date>2025-05-01</issue_date>  <!-- data fora do mês corrente -->
+    <state>SP</state>
+  </invoice>
+</invoices>

@@ -1,0 +1,4 @@
+invoice_id,customer_id,amount,issue_date,state
+INV-3001,CUST-07,200.0,2025-04-03,RJ
+INV-3002,CUST-08,-5.0,2025-04-03,MG
+INV-3003,CUST-09,75.0,2025-04-03,BA
